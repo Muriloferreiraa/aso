@@ -10,7 +10,6 @@ function Cadastro() {
     setor: "",
     funcao: "",
   });
-   
 
   const handleChange = (e) => {
     const { id, value } = e.target;
@@ -152,7 +151,7 @@ function Cadastro() {
                 className="w-full rounded-md border border-gray-300 p-3 focus:border-blue-500 focus:ring focus:ring-blue-200" />
             </div>
           </div>
-
+          
           <div className="mb-8">
             <h2 className="mb-6 border-b pb-2 text-center text-xl font-semibold text-white">
               Informações de Função
